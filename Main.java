@@ -1,12 +1,23 @@
 
-package stunda2;
-
 public class Main {
 
     public static void main(String[] args) {
-batter();
+        sum(12, 24);
+        sum(1, 2, 3);
 
 
+    }
+    public static void sum(int a, int b){
+        int rez = a + b;
+        System.out.println("Skaitļu summa ir " + rez);
+    }
+    public static void sum(int a, int b, int c){
+        int rez = a + b + c;
+        System.out.println("Skaitļu summa ir " + rez);
+    }
+    public static void sum(String a, String b){
+        int rez = a + b;
+        System.out.println("Skaitļu summa ir " + rez);
     }
     public static void batter(){
      //   1	Make the cookie batter.
